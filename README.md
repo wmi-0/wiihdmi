@@ -2,15 +2,15 @@
 HDMI for your Wii powered by GCVideo
 
 This PCB is based on the popular GCVideo project as well as the Shuriken V3 schematics and features HDMI output (240p, 480i, 480p) for the Wii.
-Menu navigation is possible via IR-remote or Gamecube controller.
+Menu navigation is possible via IR-remote or Gamecube controller.  
 One of the main goals for this project was to keep it as cheap as possible.
 This means no flex-cable for an easier install, no replacement of analog output (RGB/Component) and most importantly a 2-layer PCB design for cheap manufacturing.
 
-**Consider this project as a beta for now.**
+**Consider this project as a beta for now.**  
 I've spent several hours testing it on my launch-model Wii, but I'd like to hear some second opinions calling it ready for general use.
 
 ## Compatibility
-Confirmed to work on RVL-CPU-01 boards.
+Confirmed to work on RVL-CPU-01 boards.  
 The layout possibly fits RVL-CPU-20 as well, but this is currently untested.
 
 ## Install
@@ -49,9 +49,9 @@ See [GCVideo documentation](https://github.com/ikorb/gcvideo/blob/master/HDL/gcv
 - KiCad project cleanup
 
 ## Acknowledgements
-[ikorb](https://github.com/ikorb): GCVideo project
-[Steven Taffs](http://www.retro-system.com/shuriken%20video.htm): Shuriken V3 schematic and incredibly useful M25P40 programming tool
+[ikorb](https://github.com/ikorb): GCVideo project  
+[Steven Taffs](http://www.retro-system.com/shuriken%20video.htm): Shuriken V3 schematic and incredibly useful M25P40 programming tool  
 [citrus3000psi](https://github.com/citrus3000psi): Inspiration from GCHDMI designs
 
 ## License
-This project is licensed under the GPL v3.0 License - see the LICENSE file for details - see the LICENSE.md file for details
+This project is licensed under the GPL v3.0 License - see the LICENSE.md file for details
