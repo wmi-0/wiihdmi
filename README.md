@@ -10,8 +10,14 @@ This means no flex-cable for an easier install, no replacement of analog output 
 I've spent several hours testing it on my launch-model Wii, but I'd like to hear some second opinions calling it ready for general use.
 
 ## Compatibility
+### main_pcb_6_layer
 Confirmed to work on RVL-CPU-01 boards.  
-The layout possibly fits RVL-CPU-20 as well, but this is currently untested.
+The layout possibly fits RVL-CPU-20 as well, but this is currently untested. Won't (properly) fit RVL-CPU-30.  
+
+### main_pcb_4_layer
+The new PCB layout is designed for 4-layer Wiis (RVL-CPU-40/50/60) but it's untested as of now.
+
+Both designs use a 2-layer PCB layout which can be manufactured on the cheap, 4/6-layer is just the number of layers used on the intended target Wii mainboard.
 
 ## Install
 See [GCVideo documentation](https://github.com/ikorb/gcvideo/blob/master/HDL/gcvideo_dvi/README-Wii.md#digital-audio-and-video)
@@ -32,6 +38,8 @@ See [GCVideo documentation](https://github.com/ikorb/gcvideo/blob/master/HDL/gcv
 | R1, R3  | 4.7K, 0805  |
 | R2  | 330, 0805  |
 
+Use 0603 components for main_pcb_4_layer.
+
 ### HDMI PCB
 | Designator  | Component |
 | ------------- | ------------- |
@@ -41,9 +49,11 @@ See [GCVideo documentation](https://github.com/ikorb/gcvideo/blob/master/HDL/gcv
 | R2, R3  | 10K, 0402  |
 | U1-U3  | TPD4S010 DQA (optional)  |
 
+Use 0.8mm PCB thickness for both PCBs.
+
 ## Todos and next steps
-- PCB for 4-layer, 65nm Wii consoles (RVL-CPU-40+)
-- Provide better install pictures showing the current version of the PCB
+- ~~PCB for 4-layer, 65nm Wii consoles (RVL-CPU-40+)~~
+- ~~Provide better install pictures showing the current version of the PCB~~
 - Switch to a more common 16 pin FFC instead of 15 pin
 - Possibly add half-cut vias as anchor points (the initial design already had some, but the PCB manufacturer charged extra so I removed them again)
 - KiCad project cleanup
